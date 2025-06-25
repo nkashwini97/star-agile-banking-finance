@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bankapp-eta-deploy
+  name: bank-project-deploy
   labels:
-    app: bankapp-eta-app
+    app: bank-project-app
 spec:
   replicas: 3
   selector:
